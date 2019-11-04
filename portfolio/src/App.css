@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+body {
+  font-family: 'VT323', monospace;
+  background-color: #003B00;
+  padding: 1em 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  top: 400px;
+  position: relative;
+  color: #00FF41;
+  vertical-align: middle;
+}
+
+#cursor {
+  border-left: .1em solid #00FF41;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
